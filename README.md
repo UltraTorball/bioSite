@@ -1,2 +1,4 @@
-# bioSite
-bioSite Assignment for my HTML and CSS course
+# CSD 340 Web Development with HTML and CSS
+## Contributors
+* Professor Sue Sampson
+* Torren Davis
