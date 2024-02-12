@@ -4,6 +4,64 @@ header {
 	padding: 20px;
 	text-align: center;
 }
-h1 {
+h2 {	
+	text-align: center;
+	background-color: #8E15E5  ;
 	font-weight: 400;	
+}
+#navbar {
+	overflow: hidden;
+	background-color: #7E34B3;
+	border-bottom: 15px;
+}
+#navbar a {
+	float: left;
+	display: block;
+	color: white;
+	padding: 14px 16px;
+	text-align: center;
+	text-decoration: none;
+}	
+#navbar a:hover {
+	background-color: white;
+	color: #7E34B3;
+}
+
+figure {
+	float: right;
+}
+figcaption{
+font-style: italic;	
+font-size: .75em;
+color: #8E15E5 ;
+text-align: center;
+}
+#container p {
+	font-size: 24px;
+	margin: 20px 20px 20px 20px;
+}
+.image-gallery {
+	float: left;
+}	
+img	{
+	width:400px;
+	height: 550px;
+}
+footer {
+	background-color: #7E34B3 ;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	position: fixed;
+	left: 0;
+	text-align: right;
+}
+footer a {
+	text-decoration: none;
+	color: white;
+	text-align: right;
+}
+#cr {
+ float: left;
+color: white; 
 }
