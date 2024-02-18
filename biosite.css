@@ -27,25 +27,43 @@ h2 {
 	color: #7E34B3;
 }
 
-figure {
+#about figure {
 	float: right;
 }
+#hobbies figure {
+	float: left;
+}
+
 figcaption{
 font-style: italic;	
 font-size: .75em;
 color: #8E15E5 ;
 text-align: center;
 }
-#container p {
+#about {
+	border-style: ridge;
+	border: 20px 20px 20px 20px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}	
+#about p {
 	font-size: 24px;
-	margin: 20px 20px 20px 20px;
+	margin: 100px 100px 100px 100px;
+
 }
-.image-gallery {
-	float: left;
+#container p {
+	color: #7E34B3;
+	text-align: center;
+	font-size: 24px;
+	margin: 100px 100px 100px 100px;
+
+}
+#container img {
+	padding-left: 42%;
 }	
 img	{
 	width:400px;
 	height: 550px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 footer {
 	background-color: #7E34B3 ;
