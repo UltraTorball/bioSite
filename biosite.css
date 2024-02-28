@@ -33,10 +33,33 @@ h2 {
 #hobbies figure {
 	float: left;
 }
-
+#hobbies #image-gallery {
+	margin-left: 10%;
+	margin-top: 30px;
+	
+}
+#hobbies img {
+	padding: 10px 10px 10px 10px;
+	border-style: ridge;
+	border: 20px 20px 20px 20px;
+	background-color: #7E34B3;
+	box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.5);
+}	
+#hobbies p {
+	color:#7E34B3 ; 
+	text-align: center;
+	font-size: 24px;	
+	height: 200px;
+	width: 800px;
+	margin-left: 35%;
+	
+	
+	
+}	
 figcaption{
+padding-top:10px;
 font-style: italic;	
-font-size: .75em;
+font-size: 24px;
 color: #8E15E5 ;
 text-align: center;
 }
@@ -50,6 +73,18 @@ text-align: center;
 	margin: 100px 100px 100px 100px;
 
 }
+#about img {
+	padding: 10px 10px 10px 10px;
+	border-style: ridge;
+	border: 20px 20px 20px 20px;
+	background-color: #7E34B3;
+	box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.5);
+}	
+#container {
+	border-style: ridge;
+	border-width: 20px 20px 20px 20px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}	
 #container p {
 	color: #7E34B3;
 	text-align: center;
@@ -58,12 +93,20 @@ text-align: center;
 
 }
 #container img {
-	padding-left: 42%;
-}	
+	margin-left: 42%;
+	margin-top: 20px;
+	padding: 10px 10px 10px 10px;
+	box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2);
+	border-style: ridge;
+	border: 20px 20px 20px 20px;
+	background-color: #7E34B3;
+	box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.5);
+}
+	
 img	{
 	width:400px;
 	height: 550px;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	
 }
 footer {
 	background-color: #7E34B3 ;
